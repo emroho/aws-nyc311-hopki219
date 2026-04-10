@@ -1,5 +1,6 @@
 # NYC 311 Service Request Analysis Project
-description of project goes here
+This project uses AWS and cloud computing tools such as SageMaker to answer a stakeholder question.  The dataset contains 
+information regarding incident tickets, resolution times, and the city/department in which the incident took place.  The project aims to analyze what factors drive high ticket resolution times. 
 
 ## Data Source and Provenance
 - **Source**: [NYC Open Data 311 Service Requests](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9/)
@@ -32,10 +33,9 @@ See `data-dictionary.md` for full schema.
 **Key relationships**: Join `complaints.agency = agencies.agency`
 
 **Stakeholder questions**:
-- [Paste your specific problem brief here]
+- Agency directors want a tool that estimates expected resolution time at the moment a complaint is filed, so they can set realistic expectations with residents. What factors drive that time?
 
 ## Assumptions and Known Issues
 - Empty `closed_date` = open/unresolved requests
 - Some `incident_zip` values are 0 or missing
 - String dates need parsing in Athena/SQL
-- [Add any other assumptions or issues you identified during data exploration]
