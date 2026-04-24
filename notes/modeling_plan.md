@@ -1,9 +1,9 @@
 # NYC 311 Modeling Plan
 
-**Date created:** [04/01/2026]
+**Date created:** 04/01/2026
 
 ## Business question
-Predict [What factors drive resolution time?]
+Predict what factors drive resolution time
 
 ## Data source
 - **S3 path:** cmse492-hopki219-nyc311-339713165743-us-east-1-an/raw/
