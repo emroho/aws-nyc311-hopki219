@@ -16,7 +16,7 @@ information regarding incident tickets, resolution times, and the city/departmen
 ## Project Structure
 
 ```
-aws-nyc311-yourMSUNetID/      # Update with your GitHub repo name
+aws-nyc311-hopki219/      # Update with your GitHub repo name
 ├── README.md                 # Data source, S3 paths, assumptions
 ├── data-dictionary.md        # Column details
 ├── raw/                      # Local copies of S3 uploads
