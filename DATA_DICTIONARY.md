@@ -53,7 +53,7 @@
 **S3 structure example (update this to match your actual S3 bucket structure!)**:
 
 ```
-s3://your-bucket/raw/
+s3://cmse492-hopki219-nyc311/raw/
 ├── complaints.csv
 └── agencies.csv
 ```
