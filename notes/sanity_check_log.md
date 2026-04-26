@@ -1,0 +1,7 @@
+- **File:** sql/resolution_time.sql
+- **Business question:** How long does each agency take to resolve complaints?
+- **What I expected:** I expected HPD and DEP to be faster than NYPD due to the nature of their work.
+- **Issues encountered:** MAPE was reaching infinity so I changed accuracy metrics
+- **Checks performed:** Found out a lot of valeus were zero for days to close
+- **Final outcome:** A more readable accuracy metric was calculated with MAE
+- **Confidence:** High. Would present to stakeholder.
