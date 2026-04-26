@@ -26,7 +26,7 @@ Predict what factors drive resolution time
 
 ## Modeling approach
 - **Baseline:** Logistic regression
-- **Metrics:** Accuracy, precision, recall
+- **Metrics:** MAE, RMSE
 - **Train/test split:** 80/20
 
 ## Data quality notes
